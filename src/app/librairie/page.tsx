@@ -1,8 +1,18 @@
+import { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import { books } from "@/data/books";
+
+export const metadata: Metadata = {
+  title: "Librairie",
+  description: "Decouvrez les ouvrages du Prophete Philippe Mukoma Wetu. Livres sur la restauration des familles, le mariage, la priere et la foi chretienne.",
+  openGraph: {
+    title: "Librairie | Restauration des Familles",
+    description: "Decouvrez les ouvrages du Prophete Philippe Mukoma Wetu pour nourrir votre foi et transformer votre famille.",
+  },
+};
 
 export default function LibrairiePage() {
   return (

@@ -1,0 +1,21 @@
+{
+  "name": "Restauration des Familles",
+  "short_name": "RDF",
+  "description": "Une Eglise, Une Famille, Un Amour",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFBF5",
+  "theme_color": "#B91C1C",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
