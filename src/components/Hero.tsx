@@ -30,7 +30,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-6 sm:mb-8 animate-fade-in-up">
             <span className="w-2 h-2 bg-rdf-gold rounded-full animate-pulse" />
             <span className="text-rdf-gold-light text-sm font-medium">
-              Bienvenue a l&apos;eglise RDF
+              Bienvenue à l&apos;église RDF
             </span>
           </div>
 
@@ -42,7 +42,7 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl text-white/80 leading-relaxed mb-8 max-w-2xl animate-fade-in-up" style={{ animationDelay: '200ms' }}>
-            Une eglise dediee a la restauration, a l&apos;unite et a l&apos;epanouissement des familles selon les principes de la Parole de Dieu.
+            Une église dédiée à la restauration, à l&apos;unité et à l&apos;épanouissement des familles selon les principes de la Parole de Dieu.
           </p>
 
           {/* CTA Buttons */}
@@ -90,15 +90,15 @@ export default function Hero() {
           <div className="grid grid-cols-3 gap-4 sm:gap-8 mt-12 sm:mt-16 pt-8 border-t border-white/10 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
             <div>
               <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-rdf-gold">15+</div>
-              <div className="text-sm sm:text-base text-white/60 mt-1">Annees de ministere</div>
+              <div className="text-sm sm:text-base text-white/60 mt-1">Années de ministère</div>
             </div>
             <div>
               <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-rdf-gold">1000+</div>
-              <div className="text-sm sm:text-base text-white/60 mt-1">Familles restaurees</div>
+              <div className="text-sm sm:text-base text-white/60 mt-1">Familles restaurées</div>
             </div>
             <div>
               <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-rdf-gold">3</div>
-              <div className="text-sm sm:text-base text-white/60 mt-1">Pays touches</div>
+              <div className="text-sm sm:text-base text-white/60 mt-1">Pays touchés</div>
             </div>
           </div>
         </div>

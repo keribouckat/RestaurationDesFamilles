@@ -25,8 +25,8 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-rdf-gray-400 text-sm leading-relaxed max-w-xs">
-              Notre mission est de voir des familles restaurees par la puissance de l&apos;Evangile,
-              vivant dans l&apos;unite et l&apos;amour de Christ.
+              Notre mission est de voir des familles restaurées par la puissance de l&apos;Évangile,
+              vivant dans l&apos;unité et l&apos;amour de Christ.
             </p>
           </div>
 
@@ -131,10 +131,10 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm">
             <p className="text-rdf-gray-500">
-              &copy; {currentYear} Restauration des Familles. Tous droits reserves.
+              &copy; {currentYear} Restauration des Familles. Tous droits réservés.
             </p>
             <p className="text-rdf-gold italic font-serif">
-              &ldquo;A Dieu seul soit la gloire&rdquo;
+              &ldquo;À Dieu seul soit la gloire&rdquo;
             </p>
           </div>
         </div>

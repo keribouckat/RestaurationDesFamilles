@@ -7,10 +7,10 @@ import { books } from "@/data/books";
 
 export const metadata: Metadata = {
   title: "Librairie",
-  description: "Decouvrez les ouvrages du Prophete Philippe Mukoma Wetu. Livres sur la restauration des familles, le mariage, la priere et la foi chretienne.",
+  description: "Découvrez les ouvrages du Prophète Philippe Mukoma Wetu. Livres sur la restauration des familles, le mariage, la prière et la foi chrétienne.",
   openGraph: {
     title: "Librairie | Restauration des Familles",
-    description: "Decouvrez les ouvrages du Prophete Philippe Mukoma Wetu pour nourrir votre foi et transformer votre famille.",
+    description: "Découvrez les ouvrages du Prophète Philippe Mukoma Wetu pour nourrir votre foi et transformer votre famille.",
   },
 };
 
@@ -49,7 +49,7 @@ export default function LibrairiePage() {
               Librairie RDF
             </h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-              Decouvrez les ouvrages du Prophète Philippe Mukoma Wetu pour nourrir votre foi
+              Découvrez les ouvrages du Prophète Philippe Mukoma Wetu pour nourrir votre foi
               et transformer votre famille.
             </p>
           </div>
@@ -106,7 +106,7 @@ export default function LibrairiePage() {
                 Comment commander ?
               </h2>
               <p className="text-lg text-white/90 mb-6 max-w-2xl mx-auto">
-                Pour commander un ou plusieurs ouvrages, contactez-nous par email ou via nos reseaux sociaux.
+                Pour commander un ou plusieurs ouvrages, contactez-nous par email ou via nos réseaux sociaux.
                 Livraison disponible au Gabon.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

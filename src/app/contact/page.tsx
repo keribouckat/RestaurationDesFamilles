@@ -16,7 +16,7 @@ export default function ContactPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    alert('Merci pour votre message ! Nous vous repondrons rapidement.');
+    alert('Merci pour votre message ! Nous vous répondrons rapidement.');
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
@@ -60,7 +60,7 @@ export default function ContactPage() {
               Contactez-nous
             </h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-              Vous avez des questions ? Vous souhaitez nous rejoindre ? N&apos;hesitez pas a nous contacter.
+              Vous avez des questions ? Vous souhaitez nous rejoindre ? N&apos;hésitez pas à nous contacter.
             </p>
           </div>
         </section>
@@ -102,7 +102,7 @@ export default function ContactPage() {
                     <div>
                       <h4 className="font-semibold text-rdf-red-dark mb-2">Adresse</h4>
                       <p className="text-rdf-gray text-sm">Libreville, Gabon</p>
-                      <p className="text-rdf-gray text-sm mt-1">Presence internationale</p>
+                      <p className="text-rdf-gray text-sm mt-1">Présence internationale</p>
                     </div>
                   </div>
 
@@ -129,7 +129,7 @@ export default function ContactPage() {
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-rdf-red-dark mb-3">Reseaux sociaux</h4>
+                      <h4 className="font-semibold text-rdf-red-dark mb-3">Réseaux sociaux</h4>
                       <div className="flex gap-3">
                         <a
                           href="https://www.facebook.com/share/16yRSuULj8/"
@@ -221,11 +221,11 @@ export default function ContactPage() {
                       required
                       className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-rdf-red focus:ring-2 focus:ring-rdf-red/20 outline-none transition-all bg-white"
                     >
-                      <option value="">Selectionnez un sujet</option>
+                      <option value="">Sélectionnez un sujet</option>
                       <option value="information">Demande d&apos;information</option>
-                      <option value="priere">Demande de priere</option>
-                      <option value="rejoindre">Rejoindre l&apos;eglise</option>
-                      <option value="temoignage">Partager un temoignage</option>
+                      <option value="priere">Demande de prière</option>
+                      <option value="rejoindre">Rejoindre l&apos;église</option>
+                      <option value="temoignage">Partager un témoignage</option>
                       <option value="autre">Autre</option>
                     </select>
                   </div>

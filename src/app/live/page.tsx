@@ -10,20 +10,20 @@ const schedule = [
     day: "Dimanche",
     time: "10h00 - 13h00",
     title: "Culte du Dimanche",
-    description: "Louange, adoration, predication et communion fraternelle",
+    description: "Louange, adoration, prédication et communion fraternelle",
     live: true,
   },
   {
     day: "Mercredi",
     time: "19h00 - 21h00",
-    title: "Etude Biblique",
+    title: "Étude Biblique",
     description: "Approfondissement de la Parole de Dieu",
     live: true,
   },
   {
     day: "Vendredi",
     time: "19h00 - 21h00",
-    title: "Soiree de Priere",
+    title: "Soirée de Prière",
     description: "Temps d'intercession et de communion avec Dieu",
     live: true,
   },
@@ -32,7 +32,7 @@ const schedule = [
 const recentVideos = [
   {
     id: 1,
-    title: "La Restauration de la Famille - Serie Complete",
+    title: "La Restauration de la Famille - Série Complète",
     date: "Dimanche dernier",
     duration: "1h 45min",
     thumbnail: "https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=600&auto=format&fit=crop",
@@ -48,7 +48,7 @@ const recentVideos = [
   },
   {
     id: 3,
-    title: "Prieres pour les Enfants",
+    title: "Prières pour les Enfants",
     date: "Il y a 2 semaines",
     duration: "1h 30min",
     thumbnail: "https://images.unsplash.com/photo-1476234251651-f353703a034d?q=80&w=600&auto=format&fit=crop",
@@ -64,7 +64,7 @@ const recentVideos = [
   },
   {
     id: 5,
-    title: "Vaincre les Epreuves par la Foi",
+    title: "Vaincre les Épreuves par la Foi",
     date: "Il y a 1 mois",
     duration: "2h 00min",
     thumbnail: "https://images.unsplash.com/photo-1507692049790-de58290a4334?q=80&w=600&auto=format&fit=crop",
@@ -137,7 +137,7 @@ export default function LivePage() {
               Live Streaming
             </h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto drop-shadow-md">
-              Rejoignez-nous en direct pour les cultes et enseignements, ou revisionnez nos messages precedents.
+              Rejoignez-nous en direct pour les cultes et enseignements, ou revisionnez nos messages précédents.
             </p>
 
             {/* Quick access buttons */}
@@ -198,7 +198,7 @@ export default function LivePage() {
                     </h3>
                     <p className="text-white/80 mb-6">
                       {isLive
-                        ? "Le streaming demarrera dans quelques instants..."
+                        ? "Le streaming démarrera dans quelques instants..."
                         : "Consultez les horaires ci-dessous pour les prochains directs"}
                     </p>
                     <a
@@ -210,10 +210,10 @@ export default function LivePage() {
                       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                       </svg>
-                      Visiter notre chaine YouTube
+                      Visiter notre chaîne YouTube
                     </a>
                     <p className="text-sm text-white/60 mt-4">
-                      Pour integrer le lecteur YouTube, remplacez ce placeholder par l&apos;iframe YouTube
+                      Pour intégrer le lecteur YouTube, remplacez ce placeholder par l&apos;iframe YouTube
                     </p>
                   </div>
                 </div>
@@ -234,7 +234,7 @@ export default function LivePage() {
                   Culte en Direct
                 </h2>
                 <p className="text-rdf-gray">
-                  Rejoignez-nous pour un moment de communion fraternelle et d&apos;edification spirituelle.
+                  Rejoignez-nous pour un moment de communion fraternelle et d&apos;édification spirituelle.
                 </p>
               </div>
             </div>
@@ -272,7 +272,7 @@ export default function LivePage() {
                         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M8 5v14l11-7z" />
                         </svg>
-                        Diffuse en direct
+                        Diffusé en direct
                       </div>
                     )}
                   </div>
@@ -283,7 +283,7 @@ export default function LivePage() {
             {/* Recent Videos */}
             <div className="mt-16">
               <h2 className="font-serif text-3xl font-bold text-rdf-red-dark mb-8 text-center">
-                Replays Recents
+                Replays Récents
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {recentVideos.map((video) => (
@@ -330,7 +330,7 @@ export default function LivePage() {
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                   </svg>
-                  Voir toutes les videos
+                  Voir toutes les vidéos
                 </a>
               </div>
             </div>
@@ -341,8 +341,8 @@ export default function LivePage() {
                 Ne manquez aucun direct !
               </h2>
               <p className="text-lg text-white/90 mb-6 max-w-2xl mx-auto">
-                Abonnez-vous a notre chaine YouTube et activez la cloche de notifications
-                pour etre averti de chaque nouveau direct.
+                Abonnez-vous à notre chaîne YouTube et activez la cloche de notifications
+                pour être averti de chaque nouveau direct.
               </p>
               <a
                 href="https://www.youtube.com/@restaurationdesfamilles?sub_confirmation=1"
@@ -353,7 +353,7 @@ export default function LivePage() {
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                 </svg>
-                S&apos;abonner a la chaine
+                S&apos;abonner à la chaîne
               </a>
             </div>
           </div>

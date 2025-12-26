@@ -1,7 +1,7 @@
 {
   "name": "Restauration des Familles",
   "short_name": "RDF",
-  "description": "Une Eglise, Une Famille, Un Amour",
+  "description": "Une Église, Une Famille, Un Amour",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFFBF5",

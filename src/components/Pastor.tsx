@@ -10,17 +10,17 @@ export default function Pastor() {
             Notre Berger
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-rdf-gray-900">
-            Le Prophete <span className="text-rdf-gold-dark">Philippe Mukoma Wetu</span>
+            Le Prophète <span className="text-rdf-gold-dark">Philippe Mukoma Wetu</span>
           </h2>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-          {/* Image */}
-          <div className="relative order-2 lg:order-1">
+          {/* Image - Affichée en premier sur mobile */}
+          <div className="relative lg:order-last">
             <div className="aspect-[4/5] rounded-2xl sm:rounded-3xl overflow-hidden relative shadow-strong">
               <Image
                 src="/photo_prophete_philippe_mukoma.jpg"
-                alt="Prophete Philippe Mukoma Wetu"
+                alt="Prophète Philippe Mukoma Wetu"
                 fill
                 className="object-cover"
               />
@@ -35,7 +35,7 @@ export default function Pastor() {
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
                   <div className="text-xl sm:text-2xl font-bold text-rdf-red">15+</div>
-                  <div className="text-xs text-rdf-gray-500">Ans de ministere</div>
+                  <div className="text-xs text-rdf-gray-500">Ans de ministère</div>
                 </div>
                 <div>
                   <div className="text-xl sm:text-2xl font-bold text-rdf-gold-dark">3</div>
@@ -43,36 +43,36 @@ export default function Pastor() {
                 </div>
                 <div>
                   <div className="text-xl sm:text-2xl font-bold text-rdf-red">6+</div>
-                  <div className="text-xs text-rdf-gray-500">Livres publies</div>
+                  <div className="text-xs text-rdf-gray-500">Livres publiés</div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Content */}
-          <div className="order-1 lg:order-2">
+          {/* Content - Affiché après la photo sur mobile */}
+          <div>
             <h3 className="font-serif text-2xl sm:text-3xl font-semibold text-rdf-gray-900 mb-6">
-              Un serviteur devoue a la restauration des familles
+              Un serviteur dévoué à la restauration des familles
             </h3>
 
             <div className="space-y-4 text-rdf-gray-600 leading-relaxed">
               <p>
-                Le Prophete <strong className="text-rdf-gray-900">Philippe Mukoma Wetu</strong> est le fondateur
-                et responsable des eglises Restauration des Familles a travers le monde. Anime par une
-                passion pour voir les familles restaurees et unies, il consacre sa vie au service de Dieu
+                Le Prophète <strong className="text-rdf-gray-900">Philippe Mukoma Wetu</strong> est le fondateur
+                et responsable des églises Restauration des Familles à travers le monde. Animé par une
+                passion pour voir les familles restaurées et unies, il consacre sa vie au service de Dieu
                 et de son prochain.
               </p>
 
               <p>
-                President de <strong className="text-rdf-gray-900">MW Ministries</strong> et fondateur de
+                Président de <strong className="text-rdf-gray-900">MW Ministries</strong> et fondateur de
                 l&apos;<strong className="text-rdf-gray-900">Association La Joie en Partage</strong> ainsi que de la
-                <strong className="text-rdf-gray-900"> Fondation Philippe Mukoma</strong>, il oeuvre pour
-                l&apos;evangelisation et l&apos;action humanitaire.
+                <strong className="text-rdf-gray-900"> Fondation Philippe Mukoma</strong>, il œuvre pour
+                l&apos;évangélisation et l&apos;action humanitaire.
               </p>
 
               <p>
-                Ecrivain, chanteur, compositeur et conferencier international, le Prophete Philippe Mukoma
-                touche des milliers de vies a travers ses messages d&apos;esperance et de reconciliation.
+                Écrivain, chanteur, compositeur et conférencier international, le Prophète Philippe Mukoma
+                touche des milliers de vies à travers ses messages d&apos;espérance et de réconciliation.
               </p>
             </div>
 
@@ -83,7 +83,7 @@ export default function Pastor() {
                   <span className="text-rdf-red font-bold text-lg">MW</span>
                 </div>
                 <p className="text-rdf-gray-900 font-semibold text-sm">MW Ministries</p>
-                <p className="text-rdf-gray-500 text-xs mt-1">Ministere evangelique</p>
+                <p className="text-rdf-gray-500 text-xs mt-1">Ministère évangélique</p>
               </div>
               <div className="bg-white p-4 sm:p-5 rounded-xl shadow-soft hover:shadow-medium transition-shadow">
                 <div className="w-10 h-10 bg-rdf-gold/10 rounded-lg flex items-center justify-center mb-3">

@@ -15,20 +15,20 @@ const donationOptions = [
 
 const projects = [
   {
-    title: "Soutien aux Familles en Difficulte",
-    description: "Aide materielle et spirituelle aux familles traversant des epreuves.",
+    title: "Soutien aux Familles en Difficulté",
+    description: "Aide matérielle et spirituelle aux familles traversant des épreuves.",
     image: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=800&auto=format&fit=crop",
     color: "from-rdf-red to-rdf-red-dark",
   },
   {
     title: "La Joie en Partage",
-    description: "Actions humanitaires pour les plus demunis : nourriture, vetements, education.",
+    description: "Actions humanitaires pour les plus démunis : nourriture, vêtements, éducation.",
     image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800&auto=format&fit=crop",
     color: "from-rdf-gold-dark to-rdf-gold",
   },
   {
-    title: "Evangelisation & Missions",
-    description: "Soutenir les campagnes d'evangelisation et l'expansion de l'oeuvre de Dieu.",
+    title: "Évangélisation & Missions",
+    description: "Soutenir les campagnes d'évangélisation et l'expansion de l'œuvre de Dieu.",
     image: "https://images.unsplash.com/photo-1507692049790-de58290a4334?q=80&w=800&auto=format&fit=crop",
     color: "from-rdf-red to-rdf-red-dark",
   },
@@ -78,10 +78,10 @@ export default function DonsPage() {
               Soutenez l&apos;Oeuvre
             </h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-4">
-              Votre generosite permet de transformer des vies et d&apos;etendre le Royaume de Dieu.
+              Votre générosité permet de transformer des vies et d&apos;étendre le Royaume de Dieu.
             </p>
             <blockquote className="text-lg italic text-rdf-gold max-w-2xl mx-auto">
-              &ldquo;Donnez, et il vous sera donne; on versera dans votre sein une bonne mesure.&rdquo;
+              &ldquo;Donnez, et il vous sera donné; on versera dans votre sein une bonne mesure.&rdquo;
               <cite className="block text-white/70 text-sm mt-2 not-italic">- Luc 6:38</cite>
             </blockquote>
           </div>
@@ -95,7 +95,7 @@ export default function DonsPage() {
                 Nos Projets
               </h2>
               <p className="text-rdf-gray text-lg max-w-2xl mx-auto">
-                Decouvrez les differents domaines ou vos dons font la difference.
+                Découvrez les différents domaines où vos dons font la différence.
               </p>
             </div>
 
@@ -202,7 +202,7 @@ export default function DonsPage() {
               {/* Payment Methods - Mobile Money Only */}
               <div className="mb-8">
                 <label className="block text-sm font-medium text-rdf-gray mb-3">
-                  Methode de paiement
+                  Méthode de paiement
                 </label>
                 <div className="space-y-3">
                   <div
@@ -231,7 +231,7 @@ export default function DonsPage() {
                     </div>
                     <label htmlFor="airtel" className="flex-1 cursor-pointer">
                       <div className="font-semibold text-rdf-red-dark">Airtel Money</div>
-                      <div className="text-sm text-rdf-gray">Paiement mobile securise</div>
+                      <div className="text-sm text-rdf-gray">Paiement mobile sécurisé</div>
                     </label>
                   </div>
                   <div
@@ -260,7 +260,7 @@ export default function DonsPage() {
                     </div>
                     <label htmlFor="moov" className="flex-1 cursor-pointer">
                       <div className="font-semibold text-rdf-red-dark">Moov Money</div>
-                      <div className="text-sm text-rdf-gray">Paiement mobile securise</div>
+                      <div className="text-sm text-rdf-gray">Paiement mobile sécurisé</div>
                     </label>
                   </div>
                 </div>
@@ -268,11 +268,11 @@ export default function DonsPage() {
 
               {/* Submit Button */}
               <button className="w-full py-4 bg-rdf-red text-white font-semibold rounded-xl hover:bg-rdf-red-dark transition-colors shadow-lg hover:shadow-xl">
-                Proceder au don de {formatCFA(customAmount ? parseInt(customAmount) : selectedAmount)}
+                Procéder au don de {formatCFA(customAmount ? parseInt(customAmount) : selectedAmount)}
               </button>
 
               <p className="text-center text-sm text-rdf-gray mt-6">
-                Que Dieu vous benisse pour votre generosite !
+                Que Dieu vous bénisse pour votre générosité !
               </p>
             </div>
 
@@ -283,7 +283,7 @@ export default function DonsPage() {
               </h3>
               <p className="text-rdf-gray max-w-2xl mx-auto">
                 Pour toute question concernant les dons ou pour effectuer un don d&apos;un montant plus important,
-                n&apos;hesitez pas a nous contacter directement.
+                n&apos;hésitez pas à nous contacter directement.
               </p>
             </div>
           </div>

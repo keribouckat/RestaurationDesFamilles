@@ -12,8 +12,8 @@ const ministries = [
     iconBg: 'bg-white/20',
   },
   {
-    title: 'Etude Biblique',
-    description: 'Approfondissez votre connaissance de la Bible dans une ambiance fraternelle et edifiante.',
+    title: 'Étude Biblique',
+    description: 'Approfondissez votre connaissance de la Bible dans une ambiance fraternelle et édifiante.',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -24,8 +24,8 @@ const ministries = [
     iconBg: 'bg-white/20',
   },
   {
-    title: 'Priere',
-    description: 'Des moments de communion avec Dieu pour interceder et recevoir sa direction.',
+    title: 'Prière',
+    description: 'Des moments de communion avec Dieu pour intercéder et recevoir sa direction.',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
@@ -37,7 +37,7 @@ const ministries = [
   },
   {
     title: 'Jeunesse',
-    description: 'Un espace dedie aux jeunes pour grandir dans la foi et developper leurs talents.',
+    description: 'Un espace dédié aux jeunes pour grandir dans la foi et développer leurs talents.',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -48,8 +48,8 @@ const ministries = [
     iconBg: 'bg-white/20',
   },
   {
-    title: 'Femmes Epanouies',
-    description: 'Un ministere pour accompagner et fortifier les femmes dans leur role et leur identite.',
+    title: 'Femmes Épanouies',
+    description: 'Un ministère pour accompagner et fortifier les femmes dans leur rôle et leur identité.',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -61,13 +61,13 @@ const ministries = [
   },
   {
     title: 'Action Humanitaire',
-    description: 'La Joie en Partage - Des actions concretes pour aider les plus demunis.',
+    description: 'La Joie en Partage - Des actions concrètes pour aider les plus démunis.',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
       </svg>
     ),
-    time: 'Toute l\'annee',
+    time: 'Toute l\'année',
     color: 'from-emerald-500 to-emerald-600',
     iconBg: 'bg-white/20',
   },
@@ -80,14 +80,14 @@ export default function Ministries() {
         {/* Section header */}
         <div className="text-center mb-12 lg:mb-16">
           <span className="inline-block px-4 py-1.5 bg-rdf-gold/10 text-rdf-gold-dark text-sm font-semibold rounded-full mb-4">
-            Nos Activites
+            Nos Activités
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-rdf-gray-900 mb-6">
-            Ministeres & <span className="text-rdf-red">Services</span>
+            Ministères & <span className="text-rdf-red">Services</span>
           </h2>
           <p className="text-rdf-gray-600 text-base sm:text-lg max-w-2xl mx-auto">
-            Decouvrez les differentes activites et ministeres de notre eglise,
-            ou chacun peut trouver sa place et s&apos;epanouir.
+            Découvrez les différentes activités et ministères de notre église,
+            où chacun peut trouver sa place et s&apos;épanouir.
           </p>
         </div>
 
@@ -134,7 +134,7 @@ export default function Ministries() {
         {/* CTA */}
         <div className="mt-12 lg:mt-16 text-center">
           <p className="text-rdf-gray-600 mb-6">
-            Vous souhaitez participer a nos activites ou en savoir plus ?
+            Vous souhaitez participer à nos activités ou en savoir plus ?
           </p>
           <a
             href="/contact"

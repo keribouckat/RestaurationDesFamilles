@@ -6,7 +6,7 @@ const values = [
       </svg>
     ),
     title: 'Amour',
-    description: 'Un amour inconditionnel qui restaure et guerit les coeurs brises.',
+    description: 'Un amour inconditionnel qui restaure et guérit les cœurs brisés.',
     color: 'bg-rdf-red/10 text-rdf-red group-hover:bg-rdf-red group-hover:text-white',
   },
   {
@@ -16,7 +16,7 @@ const values = [
       </svg>
     ),
     title: 'Famille',
-    description: 'Batir des familles solides, unies dans la foi et l\'esperance.',
+    description: 'Bâtir des familles solides, unies dans la foi et l\'espérance.',
     color: 'bg-rdf-gold/10 text-rdf-gold-dark group-hover:bg-rdf-gold group-hover:text-white',
   },
   {
@@ -26,7 +26,7 @@ const values = [
       </svg>
     ),
     title: 'Foi',
-    description: 'Ancres dans la Parole de Dieu, source de toute sagesse.',
+    description: 'Ancrés dans la Parole de Dieu, source de toute sagesse.',
     color: 'bg-rdf-red-dark/10 text-rdf-red-dark group-hover:bg-rdf-red-dark group-hover:text-white',
   },
   {
@@ -36,7 +36,7 @@ const values = [
       </svg>
     ),
     title: 'Mission',
-    description: 'Porter l\'Evangile jusqu\'aux extremites de la terre.',
+    description: 'Porter l\'Évangile jusqu\'aux extrémités de la terre.',
     color: 'bg-rdf-gold-dark/10 text-rdf-gold-darker group-hover:bg-rdf-gold-dark group-hover:text-white',
   },
 ];
@@ -51,11 +51,11 @@ export default function About() {
             Notre Vision
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-rdf-gray-900 mb-6">
-            Restaurer, Reunir, <span className="text-rdf-red">Relever</span>
+            Restaurer, Réunir, <span className="text-rdf-red">Relever</span>
           </h2>
           <p className="text-rdf-gray-600 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
-            L&apos;Eglise Restauration des Familles est un lieu de rencontre avec Dieu,
-            ou chaque famille trouve guerison, reconciliation et un nouveau depart.
+            L&apos;Église Restauration des Familles est un lieu de rencontre avec Dieu,
+            où chaque famille trouve guérison, réconciliation et un nouveau départ.
           </p>
         </div>
 
@@ -108,7 +108,7 @@ export default function About() {
               </svg>
             </div>
             <blockquote className="font-serif text-xl sm:text-2xl lg:text-3xl italic mb-4 max-w-2xl mx-auto">
-              Car la ou deux ou trois sont assembles en mon nom, je suis au milieu d&apos;eux.
+              Car là où deux ou trois sont assemblés en mon nom, je suis au milieu d&apos;eux.
             </blockquote>
             <cite className="text-white/80 text-base sm:text-lg font-medium">
               Matthieu 18:20
